@@ -1,50 +1,134 @@
-# 🎃 Personal Website – Satria Yoga Pratama
-  
-## Website Saya [klik]   https://revou-fsse-oct25.github.io/milestone-1-yogaaaa123/
+# 🌐 Portfolio Website — Satria Yoga Pratama
 
-Website ini dibuat sebagai latihan dasar HTML dan CSS dengan menggunakan elemen-elemen *semantik* untuk membangun struktur web yang rapi dan mudah dibaca.
+Ini adalah website portfolio pribadi milik **Satria Yoga Pratama**, dibangun menggunakan HTML dan CSS dengan tampilan modern, bersih, dan responsif. Website ini menampilkan informasi diri, skills, project, serta kontak profesional.
 
 ---
 
-## 🧩 Struktur Website
+## 🚀 Features
 
-Website ini terdiri dari beberapa bagian utama:
-
-1. *Header*
-   - Berisi navigasi utama (Home, About, Project, Contact).
-
-2. *Home Section*
-   - Menampilkan nama, profesi, dan deskripsi singkat.
-
-3. *About Section*
-   - Menjelaskan profil singkat pembuat website.
-
-4. *Project Section*
-   - Menampilkan daftar kegiatan atau topik pembelajaran.
-
-5. *Contact Section*
-   - Berisi form untuk mengirim pesan.
-
-6. *Footer*
-   - Menampilkan copyright.
+- 💎 **Modern & Clean UI**
+- 📱 **Fully Responsive Design**
+- 🎨 **CSS Variables (`:root`)** untuk tema & warna
+- 🧩 **Modular CSS** (navbar, main, footer)
+- 🎭 **Smooth Hover & Animation Effects**
+- 🔗 **Social Media Integration**
+- 🖼 **Project Gallery**
+- 💬 **Contact Form (UI only)**
 
 ---
 
-## 🖌 Teknologi yang Digunakan
-- *HTML5* untuk struktur semantik.
-- *CSS3* untuk tampilan dan layout sederhana.
+## 📁 Folder Structure
+
+project-folder/
+│
+├── index.html
+│
+└── assets/
+├── navbar.css
+├── main.css
+├── footer.css
+├── Screenshot1.png
+└── Screenshot2.png
+
 
 ---
 
-## 📄 Tujuan Pembuatan
-Project ini dibuat sebagai latihan dasar memahami:
-- Elemen *semantik HTML*.
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **Google Fonts (Inter & Poppins)**
+- **Font Awesome (Icons)**
 
 ---
 
-## 👨‍💻 Pembuat
-*Nama:* Satria Yoga Pratama  
+## 📸 Preview
+
+Tambahkan screenshot website kamu di folder `/assets`.
+
+Contoh:
+
+![Preview](assets/Screenshot1.png)
 
 ---
 
-© 2025 Satria Yoga Pratama
+## 📦 Installation & Usage
+
+1. Clone repository:
+   ```bash
+   git clone https://github.com/username/portfolio-satria.git
+
+2. masuk folder
+*    cd portfolio-satria
+
+3. jalankan di browser
+
+*    Double-click index.html, atau
+*    Gunakan Live Server (VSCode)
+
+## 📁   include file 
+### index.html
+
+ website utama nya berisi struktur
+
+*   Navbar
+
+*   Hero section
+
+*   About section
+
+*   Project section
+
+*   Contact section
+
+*   Footer
+
+assets/navbar.css
+
+Berisi styling untuk:
+
+*   Header
+
+*   Logo
+
+*   Navigation menu
+
+assets/main.css
+
+Berisi styling untuk:
+
+*   Hero
+
+*   About
+
+*   Skills
+
+*   Projects
+
+*   Contact
+
+*   Form
+
+*   Button
+
+*   Icons
+
+assets/footer.css
+
+Berisi styling untuk:
+
+*   Footer sederhana dan responsif
+
+👨‍💻 Author
+
+Satria Yoga Pratama
+Beginner Web Developer
+Jawa Tengah — Indonesia
+
+🔗 Social Media
+
+*   LinkedIn: https://linkedin.com/in/satria
+
+*   GitHub: https://github.com/satria
+
+*   Instagram: https://instagram.com/satria
