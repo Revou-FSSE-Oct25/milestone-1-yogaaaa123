@@ -4,149 +4,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Satria Yoga Pratama" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Website ini di buat dengan sepenuh hati." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website My ID</title>
+    <meta name="description" content="Website tentang kucing — dibuat dengan Tailwind CSS." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Website</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-white text-gray-900"><!-- NAVBAR -->
+<body class="bg-white text-gray-900">
+
+    <!-- NAVBAR -->
     <nav class="fixed top-0 left-0 w-full bg-white border-b shadow-sm z-50">
         <div class="flex items-center justify-between px-4 py-4 max-w-6xl mx-auto">
-            <h1 class="text-lg font-semibold">Website My ID</h1>
+            <h1 class="text-lg font-semibold">Cat Website</h1>
+
             <button id="menu-btn" class="text-2xl md:hidden">☰</button>
+
             <ul class="hidden md:flex gap-8 text-sm font-medium">
-                <li><a href="#home" class="hover:text-blue-600 transition">Home</a></li>
-                <li><a href="#about" class="hover:text-blue-600 transition">About</a></li>
-                <li><a href="#project" class="hover:text-blue-600 transition">Projects</a></li>
-                <li><a href="#contact" class="hover:text-blue-600 transition">Contact</a></li>
+                <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-600">About</a></li>
+                <li><a href="#project" class="hover:text-blue-600">Projects</a></li>
+                <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
             </ul>
         </div>
-        <ul id="mobile-menu" class="flex flex-col gap-4 px-4 pb-4 text-sm font-medium md:hidden hidden">
+
+        <ul id="mobile-menu" class="hidden md:hidden flex flex-col gap-4 px-4 pb-4 text-sm font-medium">
             <li><a href="#home" class="hover:text-blue-600">Home</a></li>
             <li><a href="#about" class="hover:text-blue-600">About</a></li>
             <li><a href="#project" class="hover:text-blue-600">Projects</a></li>
             <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
         </ul>
-    </nav><!-- HERO -->
-    <section id="home" class="pt-32 px-4 pb-24 md:pt-40 md:pb-32">
-        <div class="max-w-6xl mx-auto md:flex md:items-center md:justify-between">
-            <div class="text-center md:text-left md:w-1/2">
-                <h1 class="text-3xl md:text-5xl font-bold mb-4">Welcome to My Website</h1>
-                <p class="text-gray-600 text-base md:text-lg mb-6">
-                    Website latihan Tailwind CSS mobile-first dan responsive.
-                </p>
-                <button
-                    class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 active:scale-95 transition">
-                    Get Started
-                </button>
-            </div>
-            <div class="hidden md:block md:w-1/2">
-                <img src="kucing.jpeg"
-                    class="w-full rounded-xl shadow" />
-            </div>
-        </div>
-    </section><!-- ABOUT -->
-    <section id="about" class="px-4 py-24 bg-gray-50">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-10">
-                <h2 class="text-2xl md:text-4xl font-bold mb-3">About Me</h2>
-                <p class="text-gray-600 text-sm md:text-base">Sedikit informasi tentang saya dan tujuan website ini.</p>
-            </div>
-            <div class="md:flex md:items-center md:gap-10 text-gray-700 leading-relaxed">
-                <div class="md:w-1/2">
-                    <p class="mb-4">Saya sedang belajar membuat website menggunakan Tailwind CSS.</p>
-                    <p>Website ini adalah proyek latihan untuk memahami responsive design dan utility-based styling
-                        modern.</p>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO -->
+        <section id="home" class="pt-32 px-4 pb-24 md:pt-40 md:pb-32">
+            <div class="max-w-6xl mx-auto md:flex md:items-center md:justify-between">
+
+                <div class="text-center md:text-left md:w-1/2">
+                    <h1 class="text-3xl md:text-5xl font-bold mb-4">Selamat datang di Cat Website</h1>
+                    <p class="text-gray-600 mb-6 md:text-lg">
+                        Tempat jual beli kucing.
+                    </p>
+
+                    <button class="px-6 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-800">
+                        Click Me
+                    </button>
                 </div>
-                <div class="hidden md:block md:w-1/2">
-                    <img src="data:image/jpeg;base64,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"
-                        class="rounded-xl shadow" />
+
+                <!-- Gambar tampil di mobile juga -->
+                <div class="block mt-10 md:mt-0 md:w-1/2 mx-auto max-w-xs md:max-w-full">
+                    <img src="https://res-5.cloudinary.com/dk0z4ums3/image/upload/v1661753020/attached_image/inilah-cara-merawat-anak-kucing-yang-tepat.jpg" class="w-full rounded-xl shadow" />
                 </div>
             </div>
-        </div>
-    </section><!-- PROJECTS -->
-    <section id="project" class="px-4 py-24">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-2xl md:text-4xl font-bold mb-3">Projects</h2>
-                <p class="text-gray-600 text-sm md:text-base">Beberapa project sederhana yang pernah saya kerjakan.</p>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="px-4 py-24 bg-gray-50">
+            <div class="max-w-6xl mx-auto">
+
+                <div class="text-center mb-10">
+                    <h2 class="text-2xl md:text-4xl font-bold mb-3">About Me</h2>
+                    <p class="text-gray-600">Informasi tentang kucing ini</p>
+                </div>
+
+                <div class="md:flex md:items-center md:gap-10 text-gray-700 leading-relaxed">
+
+                    <div class="md:w-1/2">
+                        <p>
+                            <strong>Nama:</strong> Kitty <br>
+                            <strong>Umur:</strong> 2 tahun <br>
+                            <strong>Ras:</strong> Scottish Fold <br>
+                            <strong>Warna Bulu:</strong> Putih abu-abu <br>
+                            <strong>Makanan Favorit:</strong> Royal Canin & Sheba <br>
+                            <strong>Kesukaan:</strong> Tidur dekat jendela & bermain bola kecil
+                        </p>
+                    </div>
+
+                    <!-- Gambar tampil di mobile juga -->
+                    <div class="block mt-10 md:mt-0 md:w-1/2 mx-auto max-w-xs md:max-w-full">
+                        <img src="/milestone-1-yogaaaa123/assets/kucing.jpeg" class="rounded-xl shadow" />
+                    </div>
+                </div>
             </div>
-            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                <div
-                    class="p-6 border rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition transform bg-white">
-                    <h3 class="text-xl font-semibold mb-2">Project 1</h3>
-                    <p class="text-gray-600 text-sm mb-4">Deskripsi singkat project pertama saya.</p>
-                    <button class="px-4 py-2 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700">View</button>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="project" class="px-4 py-24">
+            <div class="max-w-6xl mx-auto">
+
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl md:text-4xl font-bold mb-3">Projects</h2>
+                    <p class="text-gray-600">Beberapa project sederhana tentang kucing</p>
                 </div>
-                <div
-                    class="p-6 border rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition transform bg-white">
-                    <h3 class="text-xl font-semibold mb-2">Project 2</h3>
-                    <p class="text-gray-600 text-sm mb-4">Deskripsi singkat project kedua saya.</p>
-                    <button class="px-4 py-2 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700">View</button>
-                </div>
-                <div
-                    class="p-6 border rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition transform bg-white">
-                    <h3 class="text-xl font-semibold mb-2">Project 3</h3>
-                    <p class="text-gray-600 text-sm mb-4">Deskripsi singkat project ketiga saya.</p>
-                    <button class="px-4 py-2 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700">View</button>
+
+                <div class="grid gap-6 sm:grid-cols-2 place-items-center">
+
+                    <!-- Project 1 -->
+                    <div class="p-6 border rounded-2xl shadow-sm hover:shadow-xl transition bg-white w-full max-w-sm">
+                        <img src="/milestone-1-yogaaaa123/assets/kucing4.jpg"
+                            class="w-full h-48 object-cover rounded-xl mb-4">
+                        <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+                        <p class="text-gray-600 text-sm mb-4">Deskripsi singkat project pertama.</p>
+                        <button class="px-4 py-2 bg-gray-700 text-white rounded-lg">View</button>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="p-6 border rounded-2xl shadow-sm hover:shadow-xl transition bg-white w-full max-w-sm">
+                        <img src="/milestone-1-yogaaaa123/assets/kucing3.jpg"
+                            class="w-full h-48 object-cover rounded-xl mb-4">
+                        <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+                        <p class="text-gray-600 text-sm mb-4">Deskripsi singkat project kedua.</p>
+                        <button class="px-4 py-2 bg-gray-700 text-white rounded-lg">View</button>
+                    </div>
+
                 </div>
             </div>
-        </div>
-    </section><!-- CONTACT -->
-    <section id="contact" class="px-4 py-24 bg-gray-50">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12">
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="px-4 py-24 bg-gray-50">
+            <div class="max-w-6xl mx-auto text-center mb-12">
+
                 <h2 class="text-2xl md:text-4xl font-bold mb-3">Contact Me</h2>
-                <p class="text-gray-600 text-sm md:text-base">Silakan hubungi saya untuk bekerja sama.</p>
+                <p class="text-gray-600">Silakan hubungi saya</p>
             </div>
-            <form class="max-w-xl mx-auto flex flex-col gap-6">
+
+            <!-- Ukuran form diperkecil -->
+            <form class="max-w-sm mx-auto flex flex-col gap-6">
                 <input type="text" placeholder="Nama kamu"
-                    class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+                    class="p-3 border rounded-lg focus:ring-2 focus:ring-blue-500" />
+
                 <input type="email" placeholder="Email kamu"
-                    class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
-                <textarea rows="6" placeholder="Pesan kamu"
-                    class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"></textarea>
-                <button
-                    class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 active:scale-95 transition text-base">Kirim
-                    Pesan</button>
+                    class="p-3 border rounded-lg focus:ring-2 focus:ring-blue-500" />
+
+                <textarea rows="5" placeholder="Pesan kamu"
+                    class="p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 resize-none"></textarea>
+
+                <button class="px-6 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-800">Kirim Pesan</button>
             </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="px-4 py-10 bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto text-center">
+
+            <h3 class="text-lg font-semibold mb-4">Cat Website</h3>
+
+            <div class="flex justify-center gap-6 text-gray-300">
+
+                <!-- Github -->
+                <a href="#" class="hover:text-white">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.19 6.85 9.5.5.1.68-.22.68-.48 
+                            0-.24-.01-.87-.02-1.7-2.79.6-3.38-1.35-3.38-1.35-.46-1.16-1.12-1.47-1.12-1.47-.91-.62.07-.61.07-.61 
+                            1.01.07 1.54 1.04 1.54 1.04.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.96 
+                            0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .85-.27 2.75 1.03A9.44 9.44 0 0 1 12 6.32c.86 0 1.72.11 2.53.34 
+                            1.9-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.69 0 3.86-2.34 4.71-4.57 4.96.36.31.68.92.68 1.86 
+                            0 1.34-.01 2.42-.01 2.74 0 .27.18.58.69.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10Z" />
+                    </svg>
+                </a>
+            </div>
         </div>
-    </section><!-- FOOTER -->
-    <footer class="px-4 py-12 bg-gray-900 text-white">
-        <div class="max-w-6xl mx-auto grid gap-10 md:grid-cols-3">
-            <div>
-                <h3 class="text-xl font-semibold mb-3">Website My ID</h3>
-                <p class="text-gray-400 text-sm">Website latihan saya untuk belajar Tailwind CSS.</p>
-            </div>
-            <div>
-                <h4 class="text-lg font-semibold mb-3">Links</h4>
-                <ul class="flex flex-col gap-2 text-gray-300 text-sm">
-                    <li><a href="#home" class="hover:text-white transition">Home</a></li>
-                    <li><a href="#about" class="hover:text-white transition">About</a></li>
-                    <li><a href="#project" class="hover:text-white transition">Projects</a></li>
-                    <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
-                </ul>
-            </div>
-            <div>
-                <h4 class="text-lg font-semibold mb-3">Social</h4>
-                <ul class="flex gap-4 text-gray-300 text-xl">
-                    <li><a href="#" class="hover:text-white transition">📘</a></li>
-                    <li><a href="#" class="hover:text-white transition">📷</a></li>
-                    <li><a href="#" class="hover:text-white transition">🐦</a></li>
-                </ul>
-            </div>
-        </div>
-        <p class="text-gray-500 text-center text-sm mt-10">&copy; 2025 Website My ID — All rights reserved.</p>
-    </footer><!-- SCRIPT -->
+    </footer>
+
+    <!-- SCRIPT -->
     <script>
-        const btn = document.getElementById('menu-btn');
-        const menu = document.getElementById('mobile-menu');
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
+        const btn = document.getElementById("menu-btn");
+        const menu = document.getElementById("mobile-menu");
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
         });
     </script>
+
 </body>
 
 </html>
