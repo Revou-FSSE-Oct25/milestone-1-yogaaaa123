@@ -32,15 +32,15 @@ Klik link berikut:
 ##  Struktur Folder
 
 /
-├── index.html
 └── milestone-1-yogaaaa123/
+├── index.html
 └── assets/
 ├── kucing.jpeg
 ├── kucing3.jpg
 └── kucing4.jpg
 
 
-> Pastikan semua gambar berada di folder `assets` agar tampil dengan benar.
+- Pastikan semua gambar berada di folder `assets` agar tampil dengan benar.
 
 ---
 
@@ -50,7 +50,7 @@ Klik link berikut:
 - **About** — informasi kucing kitty, 2tahun, Scottish Fold, whiskhas,
 - **Projects** — card project dengan gambar  
 - **Contact** — form untuk mengirim pesan  
-- **Footer** — simpel dengan social icons (GitHub, Instagram, LinkedIn)
+- **Footer** — simpel dengan social icons (GitHub)
 
 ---
 
@@ -66,7 +66,7 @@ dengan perintah berikut: git clone: (repository)
 Website & mobile
 
 - Gambar tampil di mobile & desktop  
-- Project card rapih di 1 kolom (mobile) & 2 kolom (desktop)  
+- Project card rapih di 1 kolom mobile & 2 kolom desktop 
 - Footer simple dan rapih  
 - Navbar otomatis berubah jadi menu hamburger di mobile  
 
@@ -81,7 +81,7 @@ Web Developer • Belajar Tailwind, HTML, dan Web Development.
 
 ---
 
-## 📧 Contact
+##  Contact
 
 Jika ingin menghubungi pembuat:
 
@@ -91,10 +91,9 @@ Instagram:satria88
 
 ---
 
-## 🔥 License
+##  License
 
 Project ini bebas digunakan untuk belajar & pengembangan pribadi.
 
----
 
-## ❤️ Terima Kasih
+##  Terima Kasih
