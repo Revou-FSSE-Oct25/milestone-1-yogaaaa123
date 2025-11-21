@@ -2,7 +2,12 @@
 Website sederhana tentang kucing, dibuat oleh **Satria Yoga Pratama** menggunakan **HTML + Tailwind CSS**.  
 Website ini berisi informasi kucing, project contoh, dan form kontak.
 
----
+## 🔗 Live Preview
+
+Klik link berikut:
+
+[ website saya](https://revou-fsse-oct25.github.io/milestone-1-yogaaaa123/)
+
 
 ##  Features
 
@@ -12,7 +17,7 @@ Website ini berisi informasi kucing, project contoh, dan form kontak.
 -  Project card dengan gambar  
 -  Contact form  
 -  Footer simple dengan social icons  
--  Full responsive (mobile, tablet, desktop)
+-  responsive (mobile, tablet, desktop)
 
 ---
 
@@ -34,8 +39,6 @@ Website ini berisi informasi kucing, project contoh, dan form kontak.
 ├── kucing3.jpg
 └── kucing4.jpg
 
-yaml
-Copy code
 
 > Pastikan semua gambar berada di folder `assets` agar tampil dengan benar.
 
@@ -44,7 +47,7 @@ Copy code
 ##  Preview Website
 
 - **Home** — menampilkan hero, judul, dan gambar kucing  
-- **About** — informasi kucing (nama, umur, ras, makanan favorit, dll.)  
+- **About** — informasi kucing kitty, 2tahun, Scottish Fold, whiskhas,
 - **Projects** — card project dengan gambar  
 - **Contact** — form untuk mengirim pesan  
 - **Footer** — simpel dengan social icons (GitHub, Instagram, LinkedIn)
@@ -53,19 +56,14 @@ Copy code
 
 ##  Cara Menjalankan
 
-Cukup buka file berikut di browser:
-
-index.html
-
-Copy code
-
-Tidak perlu build, tidak perlu instalasi tambahan.
+cukup clone github repository dan akan tampil semua folder nya 
+dengan perintah berikut: git clone: (repository)
 
 ---
 
-## 📱 Responsiveness
+##  Responsiveness
 
-Website ini dibuat mobile-first:
+Website & mobile
 
 - Gambar tampil di mobile & desktop  
 - Project card rapih di 1 kolom (mobile) & 2 kolom (desktop)  
@@ -74,7 +72,7 @@ Website ini dibuat mobile-first:
 
 ---
 
-## 👨‍💻 About Developer
+##  About Developer
 
 Website dibuat oleh:
 
@@ -87,10 +85,9 @@ Web Developer • Belajar Tailwind, HTML, dan Web Development.
 
 Jika ingin menghubungi pembuat:
 
-Email: (isi sendiri)
-Instagram: (isi sendiri)
-GitHub: (isi sendiri)
-LinkedIn: (isi sendiri)
+Email:satriayoga@gmail.com
+Instagram:satria88
+
 
 ---
 
