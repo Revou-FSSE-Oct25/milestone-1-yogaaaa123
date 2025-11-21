@@ -1,134 +1,103 @@
-# 🌐 Portfolio Website — Satria Yoga Pratama
-
-Ini adalah website portfolio pribadi milik **Satria Yoga Pratama**, dibangun menggunakan HTML dan CSS dengan tampilan modern, bersih, dan responsif. Website ini menampilkan informasi diri, skills, project, serta kontak profesional.
-
----
-
-## 🚀 Features
-
-- 💎 **Modern & Clean UI**
-- 📱 **Fully Responsive Design**
-- 🎨 **CSS Variables (`:root`)** untuk tema & warna
-- 🧩 **Modular CSS** (navbar, main, footer)
-- 🎭 **Smooth Hover & Animation Effects**
-- 🔗 **Social Media Integration**
-- 🖼 **Project Gallery**
-- 💬 **Contact Form (UI only)**
+#  Cat Website  
+Website sederhana tentang kucing, dibuat oleh **Satria Yoga Pratama** menggunakan **HTML + Tailwind CSS**.  
+Website ini berisi informasi kucing, project contoh, dan form kontak.
 
 ---
 
-## 📁 Folder Structure
+##  Features
 
-project-folder/
-│
-├── index.html
-│
-└── assets/
-├── navbar.css
-├── main.css
-├── footer.css
-├── Screenshot1.png
-└── Screenshot2.png
-
+-  Responsive Navbar  
+-  Hero section dengan gambar kucing  
+-  About section berisi informasi kucing  
+-  Project card dengan gambar  
+-  Contact form  
+-  Footer simple dengan social icons  
+-  Full responsive (mobile, tablet, desktop)
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Teknologi yang digunakan
 
 - **HTML5**
-- **CSS3**
-- **Google Fonts (Inter & Poppins)**
-- **Font Awesome (Icons)**
+- **TailwindCSS (via CDN @tailwindcss/browser v4)**
+- **JavaScript (untuk toggle mobile menu)**
 
 ---
 
-## 📸 Preview
+##  Struktur Folder
 
-Tambahkan screenshot website kamu di folder `/assets`.
+/
+├── index.html
+└── milestone-1-yogaaaa123/
+└── assets/
+├── kucing.jpeg
+├── kucing3.jpg
+└── kucing4.jpg
 
-Contoh:
+yaml
+Copy code
 
-![Preview](assets/Screenshot1.png)
+> Pastikan semua gambar berada di folder `assets` agar tampil dengan benar.
 
 ---
 
-## 📦 Installation & Usage
+##  Preview Website
 
-1. Clone repository:
-   ```bash
-   git clone https://github.com/username/portfolio-satria.git
+- **Home** — menampilkan hero, judul, dan gambar kucing  
+- **About** — informasi kucing (nama, umur, ras, makanan favorit, dll.)  
+- **Projects** — card project dengan gambar  
+- **Contact** — form untuk mengirim pesan  
+- **Footer** — simpel dengan social icons (GitHub, Instagram, LinkedIn)
 
-2. masuk folder
-*    cd portfolio-satria
+---
 
-3. jalankan di browser
+##  Cara Menjalankan
 
-*    Double-click index.html, atau
-*    Gunakan Live Server (VSCode)
+Cukup buka file berikut di browser:
 
-## 📁   include file 
-### index.html
+index.html
 
- website utama nya berisi struktur
+Copy code
 
-*   Navbar
+Tidak perlu build, tidak perlu instalasi tambahan.
 
-*   Hero section
+---
 
-*   About section
+## 📱 Responsiveness
 
-*   Project section
+Website ini dibuat mobile-first:
 
-*   Contact section
+- Gambar tampil di mobile & desktop  
+- Project card rapih di 1 kolom (mobile) & 2 kolom (desktop)  
+- Footer simple dan rapih  
+- Navbar otomatis berubah jadi menu hamburger di mobile  
 
-*   Footer
+---
 
-assets/navbar.css
+## 👨‍💻 About Developer
 
-Berisi styling untuk:
+Website dibuat oleh:
 
-*   Header
+**Satria Yoga Pratama**  
+Web Developer • Belajar Tailwind, HTML, dan Web Development.
 
-*   Logo
+---
 
-*   Navigation menu
+## 📧 Contact
 
-assets/main.css
+Jika ingin menghubungi pembuat:
 
-Berisi styling untuk:
+Email: (isi sendiri)
+Instagram: (isi sendiri)
+GitHub: (isi sendiri)
+LinkedIn: (isi sendiri)
 
-*   Hero
+---
 
-*   About
+## 🔥 License
 
-*   Skills
+Project ini bebas digunakan untuk belajar & pengembangan pribadi.
 
-*   Projects
+---
 
-*   Contact
-
-*   Form
-
-*   Button
-
-*   Icons
-
-assets/footer.css
-
-Berisi styling untuk:
-
-*   Footer sederhana dan responsif
-
-👨‍💻 Author
-
-Satria Yoga Pratama
-Beginner Web Developer
-Jawa Tengah — Indonesia
-
-🔗 Social Media
-
-*   LinkedIn: https://linkedin.com/in/satria
-
-*   GitHub: https://github.com/satria
-
-*   Instagram: https://instagram.com/satria
+## ❤️ Terima Kasih
